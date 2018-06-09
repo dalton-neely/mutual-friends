@@ -1,5 +1,72 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Impact, Charcoal, sans-serif;
+}
+.mf-carousel-img {
+  height: auto;
+  width: 100%;
+}
+.mf-carousel-item {
+  height: 500px;
+  overflow: hidden;
+  width: 100%;
+}
+#mf-footer {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+#mf-footer div {
+  padding: 20px;
+}
+#mf-footer > div a {
+  color: white;
+}
+#mf-footer > div a:hover {
+  color: white;
+  text-decoration: none;
+}
+#mf-logo {
+  height: 150px;
+  width: auto;
+}
+#mf-moto {
+  background-color: white;
+  -webkit-box-shadow: 0px -5px 5px -5px;
+  -moz-box-shadow: 0px -5px 5px -5px;
+  box-shadow: 0px -5px 5px -5px;
+  height: 100px;
+  text-align: center;
+}
+#mf-moto > p {
+  color: black;
+  font-size: 2em;
+  line-height: 100px;
+}
+#mf-nav-bar > div a {
+  font-size: 2em;
+}
+#mf-social {
+  background: linear-gradient(to bottom, white, grey);
+  padding: 20px 0px;
+}
+#mf-social > div a {
+  color: black;
+}
+#mf-social > div a:hover {
+  color: black;
+  text-decoration: none;
+}
+#mf-social > div img {
+  height: 150px;
+}
+.no-padding{
+  padding: 0px !important;
+}
+.sm-shadow {
+  -webkit-box-shadow: 0px 0px 5px 0px;
+  -moz-box-shadow: 0px 0px 5px 0px;
+  box-shadow: 10px 10px 5px 0px;
 }
