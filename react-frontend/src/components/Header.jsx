@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class AddItem extends Component {
+class Header extends Component {
 	render() {
 		return (
 			<div>
-				<h2>Welcome to Add Item</h2>
+				<h2>Welcome to the Home page</h2>
 			</div>
 		);
 	}
 }
 
-export default AddItem;
+export class {Header};

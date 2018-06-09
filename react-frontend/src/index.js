@@ -1,18 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
 
-import AddItem from './components/AddItem';
+import {Home} from './containers/Home';
+
 class Routing extends React.Component {
 	render(){
 		return(
 			<Router>
 				<div>
-					<Route exact path='/' component={App} />
-					<Route path='/add-item' component={AddItem} />				
+					<Route exact path='/' component={Home} />				
 				</div>
 			</Router>
 		);
