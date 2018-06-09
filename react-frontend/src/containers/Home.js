@@ -9,4 +9,4 @@ class Home extends Component{
     }
 }
 
-export class {Home};
+export {Home};
